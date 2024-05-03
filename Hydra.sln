@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6CF8240C-5F6C-4E3C-A181-37440D6AEF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraDataAccess", "src\HydraDataAccess\HydraDataAccess.csproj", "{B2F417C1-156B-49B3-9349-E1A082A4DA1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraBusiness", "src\HydraBusiness\HydraBusiness.csproj", "{F6DC539C-334B-4BAA-AB4C-499A7ADAB6F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydraAPI", "src\HydraAPI\HydraAPI.csproj", "{CF29C785-BEF4-4BB3-9CEC-B9F77CA2DEE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2F417C1-156B-49B3-9349-E1A082A4DA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F417C1-156B-49B3-9349-E1A082A4DA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F417C1-156B-49B3-9349-E1A082A4DA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F417C1-156B-49B3-9349-E1A082A4DA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6DC539C-334B-4BAA-AB4C-499A7ADAB6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DC539C-334B-4BAA-AB4C-499A7ADAB6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DC539C-334B-4BAA-AB4C-499A7ADAB6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DC539C-334B-4BAA-AB4C-499A7ADAB6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF29C785-BEF4-4BB3-9CEC-B9F77CA2DEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF29C785-BEF4-4BB3-9CEC-B9F77CA2DEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF29C785-BEF4-4BB3-9CEC-B9F77CA2DEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF29C785-BEF4-4BB3-9CEC-B9F77CA2DEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2F417C1-156B-49B3-9349-E1A082A4DA1B} = {6CF8240C-5F6C-4E3C-A181-37440D6AEF37}
+		{F6DC539C-334B-4BAA-AB4C-499A7ADAB6F5} = {6CF8240C-5F6C-4E3C-A181-37440D6AEF37}
+		{CF29C785-BEF4-4BB3-9CEC-B9F77CA2DEE5} = {6CF8240C-5F6C-4E3C-A181-37440D6AEF37}
+	EndGlobalSection
+EndGlobal
