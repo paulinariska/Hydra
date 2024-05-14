@@ -38,11 +38,11 @@ public class Program
                             }); 
         });
         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(option => {
+            .AddJwtBearer( option => {
                 option.TokenValidationParameters = new TokenValidationParameters(){
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(
-                        Encoding.UTF8.GetBytes(configuration.GetSection("AppSettings: Token").Value??"")
+                        Encoding.UTF8.GetBytes(configuration.GetSection("AppSettings:Token").Value??"")
                     ),
                     ValidateIssuer = false,
                     ValidateAudience = false

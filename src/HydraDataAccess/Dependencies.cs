@@ -10,7 +10,7 @@ public class Dependencies
     public static void ConfigureService(IConfiguration configuration, IServiceCollection service)
     {
         service.AddDbContext<HydraContext>(
-            option => option.UseSqlServer(configuration.GetConnectionString("MidasConnection"))
+            option => option.UseSqlServer(configuration.GetConnectionString("HydraConnection"))
         );
     }
 }
